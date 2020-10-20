@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-10-20T14:19:35.123Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="ISKiiFbY0IDfOhEO7vhv" version="13.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-20T22:13:44.364Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="mDq5BKGPhmEY4TyZUPRE" version="13.8.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="2882" dy="1159" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2016" dy="1318" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -359,18 +359,6 @@
         <mxCell id="lSlasT7Fg2n5aYY_RcPW-141" value="id_recipe [ FK ]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="lSlasT7Fg2n5aYY_RcPW-138">
           <mxGeometry y="60" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="lSlasT7Fg2n5aYY_RcPW-68" value="month_heart_stroke" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-360" y="471" width="140" height="104" as="geometry" />
-        </mxCell>
-        <mxCell id="lSlasT7Fg2n5aYY_RcPW-69" value="id_recipe [ FK ]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="lSlasT7Fg2n5aYY_RcPW-68">
-          <mxGeometry y="26" width="140" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="lSlasT7Fg2n5aYY_RcPW-165" value="id_user [ FK ]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="lSlasT7Fg2n5aYY_RcPW-68">
-          <mxGeometry y="52" width="140" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="lSlasT7Fg2n5aYY_RcPW-164" value="date: date " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="lSlasT7Fg2n5aYY_RcPW-68">
-          <mxGeometry y="78" width="140" height="26" as="geometry" />
-        </mxCell>
         <mxCell id="lSlasT7Fg2n5aYY_RcPW-210" value="" style="endArrow=classic;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=-0.022;exitY=0.16;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="lSlasT7Fg2n5aYY_RcPW-26" target="lSlasT7Fg2n5aYY_RcPW-69">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-71.25999999999999" y="512.686" as="sourcePoint" />
@@ -502,6 +490,18 @@
         </mxCell>
         <mxCell id="lSlasT7Fg2n5aYY_RcPW-52" value="FITBG: number" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="lSlasT7Fg2n5aYY_RcPW-35">
           <mxGeometry y="198" width="191" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="lSlasT7Fg2n5aYY_RcPW-68" value="month_heart_stroke" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-360" y="460" width="140" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="lSlasT7Fg2n5aYY_RcPW-69" value="id_recipe [ FK ]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="lSlasT7Fg2n5aYY_RcPW-68">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="lSlasT7Fg2n5aYY_RcPW-165" value="id_user [ FK ]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="lSlasT7Fg2n5aYY_RcPW-68">
+          <mxGeometry y="52" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="lSlasT7Fg2n5aYY_RcPW-164" value="date: date " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="lSlasT7Fg2n5aYY_RcPW-68">
+          <mxGeometry y="78" width="140" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
