@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-10-21T23:33:11.880Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="nlka8chiqWGtMNsogLBv" version="13.8.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-22T10:30:36.291Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="uY7XMMY5SfdlvEjso2XK" version="13.8.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="3129" dy="1161" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2481" dy="1147" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -74,7 +74,7 @@
         </mxCell>
         <mxCell id="lSlasT7Fg2n5aYY_RcPW-143" value="OneToOne" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" parent="lSlasT7Fg2n5aYY_RcPW-142" connectable="0" vertex="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-10" y="-16" as="offset" />
+            <mxPoint x="-45.03" y="-20.83" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="lSlasT7Fg2n5aYY_RcPW-156" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="lSlasT7Fg2n5aYY_RcPW-150" edge="1">
@@ -311,18 +311,6 @@
             <mxPoint x="9.66" y="-23.300000000000004" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lSlasT7Fg2n5aYY_RcPW-138" value="favorite_recipes_book" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-230" y="120" width="160" height="86" as="geometry" />
-        </mxCell>
-        <mxCell id="lSlasT7Fg2n5aYY_RcPW-139" value="id [ PK ]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="lSlasT7Fg2n5aYY_RcPW-138" vertex="1">
-          <mxGeometry y="26" width="160" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="lSlasT7Fg2n5aYY_RcPW-140" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="lSlasT7Fg2n5aYY_RcPW-138" vertex="1">
-          <mxGeometry y="52" width="160" height="8" as="geometry" />
-        </mxCell>
-        <mxCell id="lSlasT7Fg2n5aYY_RcPW-141" value="id_recipe [ FK ]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="lSlasT7Fg2n5aYY_RcPW-138" vertex="1">
-          <mxGeometry y="60" width="160" height="26" as="geometry" />
-        </mxCell>
         <mxCell id="lSlasT7Fg2n5aYY_RcPW-147" value="score" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="620" y="130" width="160" height="138" as="geometry" />
         </mxCell>
@@ -466,6 +454,18 @@
         </mxCell>
         <mxCell id="lSlasT7Fg2n5aYY_RcPW-63" value="name: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="lSlasT7Fg2n5aYY_RcPW-61" vertex="1">
           <mxGeometry y="78" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="lSlasT7Fg2n5aYY_RcPW-138" value="favorite_recipes_book" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-180" y="110" width="160" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="lSlasT7Fg2n5aYY_RcPW-139" value="id [ PK ]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="lSlasT7Fg2n5aYY_RcPW-138" vertex="1">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="lSlasT7Fg2n5aYY_RcPW-140" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="lSlasT7Fg2n5aYY_RcPW-138" vertex="1">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="lSlasT7Fg2n5aYY_RcPW-141" value="id_recipe [ FK ]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="lSlasT7Fg2n5aYY_RcPW-138" vertex="1">
+          <mxGeometry y="60" width="160" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
